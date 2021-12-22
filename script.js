@@ -10,7 +10,10 @@ function compute() {
 function updateRate() {
   var rateval = document.getElementById("rate").value;
   document.getElementById("rate_val").innerText = rateval;
- //I am literally gonna die because the slider will not fucking workkk//
-// SAMPLE GIVEN document.getElementById("result").innerHTML="If you deposit "+principal+",\<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+amount+",\<br\>in the year "+year+"\<br\>" //
+
+document.getElementById("result").innerHTML="If you deposit"+1000000+",\<br\>at an interest rate of "+3.5%+"%\<br\>You will receive an amount of "+175000+",\<br\>in the year "+2025+"\<br\>"
+  
+//I got stuck at this point because I had no idea what they were asking of me since there were zero examples, so I'm turning this in and hoping to learn from other students//
 
 }
+
